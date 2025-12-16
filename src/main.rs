@@ -29,9 +29,27 @@ fn main() {
 
 // using if in a let statemant
 
-let condition = false ;
-let number = if  condition {5} else {6};
-println!("The value of number is: {number}");
+// let condition = false ;
+// let number = if  condition {5} else {6};
+// println!("The value of number is: {number}");
+
+
+// Returning Values from Loops
+
+let mut counter = 0;
+
+
+let result = loop {
+    counter += 1 ;
+ 
+    if counter ==10 {
+        break  counter*2;
+    }
+
+
+};
+
+println!("this my result : {result}");
 
 
 

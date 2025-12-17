@@ -36,20 +36,26 @@ fn main() {
 
 // Returning Values from Loops
 
-let mut counter = 0;
+// let mut counter = 0;
 
 
-let result = loop {
-    counter += 1 ;
+// let result = loop {
+//     counter += 1 ;
  
-    if counter ==10 {
-        break  counter*2;
-    }
+//     if counter ==10 {
+//         break  counter*2   ;
+//     }
 
 
-};
+// };
 
-println!("this my result : {result}");
+// println!("this my result : {result}");
+
+let a = [10 , 20 , 30 , 39 , 45];
+
+for x in a {
+    println!("this a number : {x}");
+}
 
 
 

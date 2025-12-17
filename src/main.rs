@@ -51,10 +51,17 @@ fn main() {
 
 // println!("this my result : {result}");
 
-let a = [10 , 20 , 30 , 39 , 45];
 
-for x in a {
+for x in 1..4 {
     println!("this a number : {x}");
+}
+for x in 1..=10 {
+        println!("this a number : {x}");
+
+}
+for x in (1..10).rev() {
+            println!("this a number : {x}");
+
 }
 
 
